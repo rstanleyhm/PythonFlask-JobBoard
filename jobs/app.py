@@ -7,5 +7,6 @@ app = Flask(__name__)
 # by using these decorators
 @app.route("/")
 @app.route("/jobs")
+
 def jobs():
     return render_template('index.html')
